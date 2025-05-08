@@ -106,6 +106,7 @@ html {
 
 .search-form__label {
   display: flex;
+  /* align-items: center; */
   width: fit-content;
   cursor: pointer;
   gap: 5px;
@@ -121,8 +122,8 @@ html {
   font-size: 18px;
   font-family: "Fira Sans Condensed", sans-serif;
   border: none;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
   min-width: 225px;
   min-height: 27px;
   appearance: none;
@@ -169,7 +170,7 @@ html {
 
 .button {
   background-color: transparent;
-  border: white solid 1px;
+  border: currentColor solid 1px;
   color: white;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
@@ -185,7 +186,7 @@ html {
 
 .more-button {
   inline-size: calc(100% - 4px);
-  margin: 0 2px 2px;
+  margin: 30px 2px 2px;
 }
 
 .button:focus {
@@ -232,7 +233,6 @@ html {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-bottom: 30px;
 }
 
 .content__list-item {
